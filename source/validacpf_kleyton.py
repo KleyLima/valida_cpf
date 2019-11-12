@@ -3,7 +3,7 @@
 from sys import argv
 from functools import reduce
 from re import sub
-
+from os import system
 
 class ValidaCPF:
     def __init__(self, num_cpf):
